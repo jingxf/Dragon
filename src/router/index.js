@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import shouye from '@/components/paging/shouye.vue'
-import fujin from '@/components/paging/fujin.vue'
-import dingdan from '@/components/paging/dingdan.vue'
-import gengduo from '@/components/paging/gengduo.vue'
-
+import shouye from '@/paging/shouye.vue'
+import fujin from '@/paging/fujin.vue'
+import dingdan from '@/paging/dingdan.vue'
+import gengduo from '@/paging/gengduo.vue'
+import pinpaicaiyao from '@/jshouyecaiyao/pinpaicaiyao.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +28,11 @@ export default new Router({
       path: '/gengduo',
       name: 'gengduo',
       component: gengduo
+    },
+    {
+      path: '/pinpaicaiyao',
+      name: 'pinpaicaiyao',
+      component: pinpaicaiyao
     }
   ]
 })
