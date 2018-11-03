@@ -38,6 +38,7 @@ export default {
     footer{
         position: fixed;
         bottom: 0;
+        height: 2.266667rem;
         .img{
             width: 100%;
         }

@@ -5,7 +5,7 @@
       <router-link tag="span" to="/">
         &lt;
       </router-link>
-      <p>品牌菜肴</p>
+      <p>折扣专区</p>
     </header>
     <div class="tu">
       <img src="../assets/images/首页_02.png" alt="">
@@ -17,10 +17,11 @@
           <dd>
             <h1>香辣鸭唇</h1>
             <p>单价：<i>56</i>元</p>
+            <span>现价:<i>49</i>元</span>
           </dd>
         </dl>
         <div class="dingdan">
-          <button>预定</button>
+          <button>抢购</button>
         </div>
       </div>
 
@@ -30,10 +31,11 @@
           <dd>
             <h1>香辣鸭唇</h1>
             <p>单价：<i>56</i>元</p>
+            <span>现价:<i>49</i>元</span>
           </dd>
         </dl>
         <div class="dingdan">
-          <button>预定</button>
+          <button>抢购</button>
         </div>
       </div>
 
@@ -43,10 +45,11 @@
           <dd>
             <h1>香辣鸭唇</h1>
             <p>单价：<i>56</i>元</p>
+            <span>现价:<i>49</i>元</span>
           </dd>
         </dl>
         <div class="dingdan">
-          <button>预定</button>
+          <button>抢购</button>
         </div>
       </div>
 
@@ -56,10 +59,11 @@
           <dd>
             <h1>香辣鸭唇</h1>
             <p>单价：<i>56</i>元</p>
+            <span>现价:<i>49</i>元</span>
           </dd>
         </dl>
         <div class="dingdan">
-          <button>预定</button>
+          <button>抢购</button>
         </div>
       </div>
     </div>
@@ -134,6 +138,14 @@ header{
             font-weight: blod;
             margin: .4rem /* 30/75 */;
           }
+          span{
+            font-weight: blod;
+            margin: .4rem /* 30/75 */;
+            i{
+              color: red;
+              font-size: .6rem /* 30/75 */;
+            }
+          }
         }
       }
       .dingdan{
@@ -142,7 +154,7 @@ header{
           width: 1.333333rem /* 100/75 */;
           height: .8rem /* 45/75 */;
           border-radius: 5px;
-          background: #fecb24;
+          background: #e30405;
           color: #fff;
           border: 1px solid #ccc;
         }

@@ -2,10 +2,10 @@
   <div class="pinpaicaiyao">
     <weibu></weibu>
     <header>
-      <router-link tag="span" to="/">
-        &lt;
+      <router-link tag="span" to="/caipinfenlei">
+      &lt;
       </router-link>
-      <p>品牌菜肴</p>
+      <p>帅哥食谱</p>
     </header>
     <div class="tu">
       <img src="../assets/images/首页_02.png" alt="">
@@ -13,10 +13,10 @@
     <div class="body">
       <div class="hezi">
         <dl>
-          <dt><img src="../assets/images/品牌菜肴1_03.png" alt=""></dt>
+          <dt><img src="../assets/images/帅哥食谱1.png" alt=""></dt>
           <dd>
-            <h1>香辣鸭唇</h1>
-            <p>单价：<i>56</i>元</p>
+            <h1>Cuiab</h1>
+            <p>名言:&nbsp;&nbsp;<i>头伸过来给你看个宝贝</i></p>
           </dd>
         </dl>
         <div class="dingdan">
@@ -26,10 +26,10 @@
 
       <div class="hezi">
         <dl>
-          <dt><img src="../assets/images/品牌菜肴2_03.png" alt=""></dt>
+          <dt><img src="../assets/images/帅哥食谱1.png" alt=""></dt>
           <dd>
-            <h1>香辣鸭唇</h1>
-            <p>单价：<i>56</i>元</p>
+            <h1>Cuiab</h1>
+            <p>名言:&nbsp;&nbsp;<i>头伸过来给你看个宝贝</i></p>
           </dd>
         </dl>
         <div class="dingdan">
@@ -39,10 +39,10 @@
 
       <div class="hezi">
         <dl>
-          <dt><img src="../assets/images/品牌菜肴3_03.png" alt=""></dt>
+          <dt><img src="../assets/images/帅哥食谱1.png" alt=""></dt>
           <dd>
-            <h1>香辣鸭唇</h1>
-            <p>单价：<i>56</i>元</p>
+            <h1>Cuiab</h1>
+            <p>名言:&nbsp;&nbsp;<i>头伸过来给你看个宝贝</i></p>
           </dd>
         </dl>
         <div class="dingdan">
@@ -52,10 +52,10 @@
 
       <div class="hezi">
         <dl>
-          <dt><img src="../assets/images/品牌菜肴4_03.png" alt=""></dt>
+          <dt><img src="../assets/images/帅哥食谱1.png" alt=""></dt>
           <dd>
-            <h1>香辣鸭唇</h1>
-            <p>单价：<i>56</i>元</p>
+            <h1>Cuiab</h1>
+            <p>名言:&nbsp;&nbsp;<i>头伸过来给你看个宝贝</i></p>
           </dd>
         </dl>
         <div class="dingdan">

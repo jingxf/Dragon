@@ -5,7 +5,7 @@
       <router-link tag="span" to="/">
         &lt;
       </router-link>
-      <p>品牌菜肴</p>
+      <p>热门菜肴</p>
     </header>
     <div class="tu">
       <img src="../assets/images/首页_02.png" alt="">
@@ -13,7 +13,7 @@
     <div class="body">
       <div class="hezi">
         <dl>
-          <dt><img src="../assets/images/品牌菜肴1_03.png" alt=""></dt>
+          <dt><img src="../assets/images/热门菜肴1_03.png" alt=""></dt>
           <dd>
             <h1>香辣鸭唇</h1>
             <p>单价：<i>56</i>元</p>
@@ -26,7 +26,7 @@
 
       <div class="hezi">
         <dl>
-          <dt><img src="../assets/images/品牌菜肴2_03.png" alt=""></dt>
+          <dt><img src="../assets/images/热门菜肴2_03.png" alt=""></dt>
           <dd>
             <h1>香辣鸭唇</h1>
             <p>单价：<i>56</i>元</p>
@@ -39,7 +39,7 @@
 
       <div class="hezi">
         <dl>
-          <dt><img src="../assets/images/品牌菜肴3_03.png" alt=""></dt>
+          <dt><img src="../assets/images/热门菜肴3_03.png" alt=""></dt>
           <dd>
             <h1>香辣鸭唇</h1>
             <p>单价：<i>56</i>元</p>
@@ -52,7 +52,7 @@
 
       <div class="hezi">
         <dl>
-          <dt><img src="../assets/images/品牌菜肴4_03.png" alt=""></dt>
+          <dt><img src="../assets/images/热门菜肴4_03.png" alt=""></dt>
           <dd>
             <h1>香辣鸭唇</h1>
             <p>单价：<i>56</i>元</p>
