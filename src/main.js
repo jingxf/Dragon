@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 
 import '@/assets/css/reset.css'
+import '@/assets/font-awesome-4.7.0/css/font-awesome.min.css'
 import '@/assets/flexible/flexible.debug.js'
 
 require('swiper/dist/css/swiper.css')

@@ -59,7 +59,7 @@
     <div class="kaifa">
       <div class="kf">
         <h1>菜肴开发中...</h1>
-        <!-- <p></p> -->
+        <p></p>
       </div>
     </div>
 
@@ -91,14 +91,22 @@ export default {
     }
   },
   methods:{
-    
+    s(){
+      setInterval(()=>{
+        if(this.kfPL >= this.kfH1W){
+          this.kfPL= 0;
+        }else{
+          this.kfP.style.left=Math.min(this.kfH1W,++this.kfPL) + "px";
+        }
+    },20)
+    }
   },
   mounted(){
-    // this.kfH1=document.querySelector(".kf h1");
-    // this.kfP=document.querySelector(".kf p");
-    // this.kfH1W=this.kfH1.offsetWidth;
-    // this.kfPL=this.kfP.offsetLeft;
-    // this.kfPL.style.left=Math.min(this.kfH1W,++this.kfPL >= this.kfH1W ? 0 : this.kfPLl) + "px";
+    this.kfH1=document.querySelector(".kf h1");
+    this.kfP=document.querySelector(".kf p");
+    this.kfH1W=this.kfH1.offsetWidth;
+    this.kfPL=this.kfP.offsetLeft;
+    this.s();
   }
 }
 </script>
@@ -199,7 +207,7 @@ export default {
         p{
           position: absolute;
           width: 100%;
-          background: rgba(255,255,255,.6);
+          background: rgba(0,0,0,.6);
           height: 100%;
           left: 0;
 			    top: 0;
