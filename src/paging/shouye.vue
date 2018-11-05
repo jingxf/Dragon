@@ -11,7 +11,7 @@
       <swiper :options="swiperOption" ref="mySwiper">
       <!-- slides -->
       <swiper-slide>
-        <img src="../assets/images/stu2.jpg" alt="">
+        <img src="../assets/images/stu1.jpg" alt="">
       </swiper-slide>
       <swiper-slide>
         <img src="../assets/images/stu2.jpg" alt="">
@@ -33,23 +33,23 @@
           <img src="../assets/images/s热门1_05.png" alt="">
           <p>品牌菜肴</p>
         </router-link>
-        <router-link tag="div" to="/pinpaicaiyao">
+        <router-link tag="div" to="/zhekouzhuanqu">
           <img src="../assets/images/s热门2_05.png" alt="">
           <p>折扣专区</p>
         </router-link>
-        <router-link tag="div" to="/pinpaicaiyao">
+        <router-link tag="div" to="/xinpintuijian">
           <img src="../assets/images/s热门3_05.png" alt="">
           <p>新品推荐</p>
         </router-link>
-        <router-link tag="div" to="/pinpaicaiyao">
+        <router-link tag="div" to="/remencaiyao">
           <img src="../assets/images/s热门4_05.png" alt="">
           <p>热门菜肴</p>
         </router-link>
-        <router-link tag="div" to="/pinpaicaiyao">
+        <router-link tag="div" to="/caipinfenlei">
           <img src="../assets/images/s热门5_05.png" alt="">
           <p>菜品分类</p>
         </router-link>
-        <router-link tag="div" to="/pinpaicaiyao">
+        <router-link tag="div" to="/meishisousuo">
           <img src="../assets/images/s热门6_05.png" alt="">
           <p>美食搜索</p>
         </router-link>
@@ -59,6 +59,7 @@
     <div class="kaifa">
       <div class="kf">
         <h1>菜肴开发中...</h1>
+        <p></p>
       </div>
     </div>
 
@@ -78,16 +79,34 @@ export default {
   data () {
     return {
       swiperOption: {
-          // some swiper options/callbacks
-          // 所有的参数同 swiper 官方 api 参数
-          // ...
-          autoplay:true,
-          loop:true,
-          pagination: {
-                el: '.swiper-pagination',
-            },
-        }
+        // some swiper options/callbacks
+        // 所有的参数同 swiper 官方 api 参数
+        // ...
+        autoplay:true,
+        loop:true,
+        pagination: {
+              el: '.swiper-pagination',
+          },
+      }
     }
+  },
+  methods:{
+    s(){
+      setInterval(()=>{
+        if(this.kfPL >= this.kfH1W){
+          this.kfPL= 0;
+        }else{
+          this.kfP.style.left=Math.min(this.kfH1W,++this.kfPL) + "px";
+        }
+    },20)
+    }
+  },
+  mounted(){
+    this.kfH1=document.querySelector(".kf h1");
+    this.kfP=document.querySelector(".kf p");
+    this.kfH1W=this.kfH1.offsetWidth;
+    this.kfPL=this.kfP.offsetLeft;
+    this.s();
   }
 }
 </script>
@@ -174,12 +193,24 @@ export default {
         background: #d02022;
         width: 100%;
         height: .993333rem /* 52/75 */;
+        position: relative;
+        overflow: hidden;
         h1{
           color: #fff;
           font-size: .453333rem /* 34/75 */;
           padding-left: .213333rem /* 16/75 */;
           width: 100%;
           text-align: center;
+          position: absolute;
+          left: 0;
+        }
+        p{
+          position: absolute;
+          width: 100%;
+          background: rgba(0,0,0,.6);
+          height: 100%;
+          left: 0;
+			    top: 0;
         }
       }
     }

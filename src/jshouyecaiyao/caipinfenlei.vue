@@ -5,38 +5,59 @@
       <router-link tag="span" to="/">
         &lt;
       </router-link>
-      <p>更多</p>
+      <p>菜品分类</p>
     </header>
     <div class="tu">
       <img src="../assets/images/首页_02.png" alt="">
     </div>
     <div class="body">
       <div class="list">
-        <h1>我的喜爱</h1>
+        <h1>孕妇食谱</h1>
+        <router-link tag="p" to="/yunfushipu">
+          &gt;
+        </router-link>
       </div>
       <div class="list">
-        <h1>消息通知</h1>
+        <h1>帅哥食谱</h1>
+        <router-link tag="p" to="/shuaigeshipu">
+          &gt;
+        </router-link>
       </div>
       <div class="list">
-        <h1>最新菜品推荐功能</h1>
+        <h1>减肥食谱</h1>
+        <router-link tag="p" to="/yunfushipu">
+          &gt;
+        </router-link>
       </div>
       <div class="list">
-        <h1>意见反馈</h1>
+        <h1>儿童食谱</h1>
+        <router-link tag="p" to="/yunfushipu">
+          &gt;
+        </router-link>
       </div>
       <div class="list">
-        <h1>关于</h1>
+        <h1>营养食谱</h1>
+        <router-link tag="p" to="/yunfushipu">
+          &gt;
+        </router-link>
       </div>
       <div class="list">
-        <h1>自动推送</h1>
+        <h1>美容食谱</h1>
+        <router-link tag="p" to="/yunfushipu">
+          &gt;
+        </router-link>
       </div>
       <div class="list">
-        <h1>升级最新客户端</h1>
+        <h1>考生食谱</h1>
+        <router-link tag="p" to="/yunfushipu">
+          &gt;
+        </router-link>
       </div>
       <div class="list">
-        <h1>客服电话:<span>400-106-6666</span></h1>
-      </div>
-       <div class="list">
-        <h1>退出</h1>
+        <h1>其他</h1>
+        <router-link tag="p" to="/yunfushipu">
+          &gt;
+        </router-link>
       </div>
     </div>
    
@@ -86,15 +107,17 @@ header{
     .list{
       margin-top:3%;
       display: flex;
-      padding: .35rem /* 30/75 */;
+      padding: .4rem /* 30/75 */;
       justify-content: space-between;
       border-bottom:1px solid #000;
       h1{
         font-size: .533333rem /* 40/75 */;
         font-weight:bold;
-        span{
-          color: red;
-        }
+      }
+      p{
+        font-size: .533333rem /* 40/75 */;
+        font-weight:bold;
+        color: #ccc;
       }
     }
   }

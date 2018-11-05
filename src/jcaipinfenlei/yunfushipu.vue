@@ -2,10 +2,10 @@
   <div class="pinpaicaiyao">
     <weibu></weibu>
     <header>
-      <router-link tag="span" to="/">
-        &lt;
+      <router-link tag="span" to="/caipinfenlei">
+      &lt;
       </router-link>
-      <p>品牌菜肴</p>
+      <p>孕妇专区</p>
     </header>
     <div class="tu">
       <img src="../assets/images/首页_02.png" alt="">

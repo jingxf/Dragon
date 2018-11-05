@@ -3,19 +3,19 @@
        <img src="../assets/images/weitu_04.png" alt="" class="img">
        <div class="wei">
         <router-link tag="dl" to="/" class="active">
-            <dt><img src="../assets/images/1_03.gif" alt=""></dt>
+            <dt><p class="fa fa-diamond fa-5x"></p></dt>
             <dd>首页</dd>
         </router-link>
         <router-link tag="dl" to="/fujin">
-            <dt><img src="../assets/images/2_03.gif" alt=""></dt>
+            <dt><p class="fa fa-rss fa-5x"></p></dt>
             <dd>附近</dd>
         </router-link>
         <router-link tag="dl" to="/dingdan">
-            <dt><img src="../assets/images/3_03.gif" alt=""></dt>
+            <dt><p class="fa fa-heartbeat fa-5x"></p></dt>
             <dd>订单</dd>
         </router-link>
         <router-link tag="dl" to="/gengduo">
-            <dt><img src="../assets/images/4_03.gif" alt=""></dt>
+            <dt><p class="fa fa-birthday-cake fa-5x"></p></dt>
             <dd>更多</dd>
         </router-link>
        </div>
@@ -38,12 +38,13 @@ export default {
     footer{
         position: fixed;
         bottom: 0;
+        height: 2.266667rem;
         .img{
             width: 100%;
         }
         .wei{
             display:flex;
-            background: #000;
+            background:#000;
             align-items: center;
             color: #fff;
             text-align: center;
@@ -54,13 +55,16 @@ export default {
                 &.router-link-exact-active{
                 background-color:#aa0202;
                 }
+                dt{
+                    p{
+                        color: #fff;
+                        font-size:1.266667rem /* 110/75 */;
+                    }
+                }
                 dd{
-                    font-size: 0.466667rem;
+                    font-size: 0.666667rem;
                 }
             }
         }
     }
-    // .active{
-    //     background: #aa0202;
-    // }
 </style>

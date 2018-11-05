@@ -3,9 +3,9 @@
     <weibu></weibu>
     <header>
       <router-link tag="span" to="/">
-        &lt;
+      &lt;
       </router-link>
-      <p>品牌菜肴</p>
+      <p>新品推荐</p>
     </header>
     <div class="tu">
       <img src="../assets/images/首页_02.png" alt="">
