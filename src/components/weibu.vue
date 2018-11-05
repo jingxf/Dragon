@@ -44,7 +44,7 @@ export default {
         }
         .wei{
             display:flex;
-            background: #0ff;
+            background:#000;
             align-items: center;
             color: #fff;
             text-align: center;
@@ -53,20 +53,18 @@ export default {
             dl{
                 flex:1;
                 &.router-link-exact-active{
-                background-color:#0f0;
+                background-color:#aa0202;
                 }
                 dt{
                     p{
-                        color: hotpink;
+                        color: #fff;
+                        font-size:1.266667rem /* 110/75 */;
                     }
                 }
                 dd{
-                    font-size: 0.466667rem;
+                    font-size: 0.666667rem;
                 }
             }
         }
     }
-    // .active{
-    //     background: #aa0202;
-    // }
 </style>
