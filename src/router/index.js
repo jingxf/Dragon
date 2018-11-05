@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import shouye from '@/paging/shouye.vue'
 import fujin from '@/paging/fujin.vue'
 import dingdan from '@/paging/dingdan.vue'
+import dingdan1 from '@/paging/dingdan1.vue'
 import gengduo from '@/paging/gengduo.vue'
 import pinpaicaiyao from '@/jshouyecaiyao/pinpaicaiyao.vue'
 import xinpintuijian from '@/jshouyecaiyao/xinpintuijian.vue'
@@ -30,6 +31,11 @@ export default new Router({
       path: '/dingdan',
       name: 'dingdan',
       component: dingdan
+    },
+    {
+      path: '/dingdan1',
+      name: 'dingdan1',
+      component: dingdan1
     },
     {
       path: '/gengduo',
