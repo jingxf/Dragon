@@ -5,11 +5,11 @@ import fujin from '@/paging/fujin.vue'
 import dingdan from '@/paging/dingdan.vue'
 import gengduo from '@/paging/gengduo.vue'
 import pinpaicaiyao from '@/jshouyecaiyao/pinpaicaiyao.vue'
+import ditu from '@/ditu/ditu.vue'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'shouye',
       component: shouye
@@ -33,6 +33,11 @@ export default new Router({
       path: '/pinpaicaiyao',
       name: 'pinpaicaiyao',
       component: pinpaicaiyao
+    },
+    {
+      path: '/ditu',
+      name: 'ditu',
+      component: ditu
     }
   ]
 })
