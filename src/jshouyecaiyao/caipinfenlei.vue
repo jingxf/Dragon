@@ -60,7 +60,18 @@
         </router-link>
       </div>
     </div>
-   
+
+      <!-- <div class="kuang">
+        <label for="" v-for='(v,i) in arr' :key="i">
+          <input type="checkbox" :value='v' v-model='quanxuan'>{{v}}
+        </label>
+        <label for="">
+          <input type="checkbox" v-model="s" @click='btn'>全选
+        </label>
+        <label for="">
+          <input type="checkbox" @click='fanxuan'>反选
+        </label>
+      </div> -->
   </div>
 </template>
 
@@ -71,9 +82,31 @@ export default {
   components:{weibu},
   data () {
     return {
-      
+      // arr:['吃','喝','玩','乐'],
+      // s:false,
+      // quanxuan:[],
     }
-  }
+  },
+  // watch:{
+  //   quanxuan(){
+  //     this.s= this.quanxuan.length==this.arr.length;
+  //     console.log(this.quanxuan)
+  //   }
+  // },
+  // methods:{
+  //   btn(){
+  //     this.quanxuan= this.s ? [] : this.arr;
+  //   },
+  //   fanxuan(){
+  //     let newArr=[];
+  //     this.arr.forEach(v => {
+  //       if(this.quanxuan.indexOf(v) == -1){
+  //         newArr.push(v);
+  //       }
+  //     })
+  //     this.quanxuan=newArr;
+  //   }
+  // }
 }
 </script>
 

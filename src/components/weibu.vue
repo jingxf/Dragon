@@ -39,6 +39,7 @@ export default {
         position: fixed;
         bottom: 0;
         height: 2.266667rem;
+        width: 100%;
         .img{
             width: 100%;
         }
