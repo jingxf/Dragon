@@ -7,7 +7,8 @@
     </header>
         <div id="allmap"></div>
         <div id="r-result"><input type="text" id="suggestId" size="20" value="百度" style="width:150px;" placeholder="请输入要搜索的地址" /></div>
-	<div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+	      <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>  <div id="r-result"><input type="text" id="suggestId" size="20" value="百度" style="width:150px;" placeholder="请输入要搜索的地址" /></div>
+	      <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
   </div>
 </template>
 
